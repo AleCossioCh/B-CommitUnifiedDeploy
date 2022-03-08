@@ -8495,10 +8495,1397 @@
       <!--Here finish the class DeleteBrowserTask.java  -->
 
       <!--Here insert the class ListDirectoryBrowserTask.java  -->
+      <div id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-details-container-group="file" class="file js-file js-details-container js-targetable-element Details
+              Details--on open
 
+
+
+
+
+              show-inline-notes
+             js-tagsearch-file
+           " data-file-type=".java" data-file-deleted="false" data-tagsearch-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-tagsearch-lang="Java" data-targets="diff-file-filter.diffEntries">
+          <div class="file-header d-flex flex-md-row flex-column flex-md-items-center file-header--expandable js-file-header js-skip-tagsearch " data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-short-path="1109ece" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-file-type=".java" data-file-deleted="false">
+              <div class="file-info flex-auto min-width-0 mb-md-0 mb-2">
+                  <button type="button" class="btn-octicon js-details-target" aria-label="Toggle diff contents" aria-expanded="true" style="width: 22px;">
+                      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down Details-content--hidden">
+                          <path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path>
+                      </svg>
+                      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-right Details-content--shown">
+                          <path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"></path>
+                      </svg>
+                  </button>
+
+
+                  <div class="js-expand-full-wrapper d-inline-block">
+                      <button type="button" class="btn-link color-fg-muted no-underline js-expand-full directional-expander tooltipped tooltipped-se" aria-label="Expand all" data-url="/AleCossioCh/jEdit-3/blob_expand/8bf5d697e6d7655b5d2c433c4cc208b9ff9ce6e4?anchor=diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3&amp;diff=unified&amp;direction=full&amp;mode=100644&amp;path=trunk%2Forg%2Fgjt%2Fsp%2Fjedit%2Fbrowser%2FListDirectoryBrowserTask.java">
+                          <svg aria-label="Expand all" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-unfold">
+                              <path d="M8.177.677l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25a.75.75 0 01-1.5 0V4H5.104a.25.25 0 01-.177-.427L7.823.677a.25.25 0 01.354 0zM7.25 10.75a.75.75 0 011.5 0V12h2.146a.25.25 0 01.177.427l-2.896 2.896a.25.25 0 01-.354 0l-2.896-2.896A.25.25 0 015.104 12H7.25v-1.25zm-5-2a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"></path>
+                          </svg>
+                      </button>
+                      <button type="button" class="btn-link color-fg-muted no-underline js-collapse-diff tooltipped tooltipped-se" aria-label="Collapse expanded lines" hidden="">
+                          <svg aria-label="Collapse added diff lines" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-fold">
+                              <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"></path>
+                          </svg>
+                      </button>
+                  </div>
+
+
+                  <span class="diffstat tooltipped tooltipped-e" aria-label="20 changes: 10 additions &amp; 10 deletions">20 <span class="diffstat-block-added"></span><span class="diffstat-block-added"></span><span class="diffstat-block-deleted"></span><span class="diffstat-block-deleted"></span><span class="diffstat-block-neutral"></span></span>
+
+
+                  <a title="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" class="Link--primary" href="#diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3">trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java</a>
+
+                  <clipboard-copy data-copy-feedback="Copied!" aria-label="Copy" value="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-view-component="true" class="Link--onHover color-fg-muted ml-1" tabindex="0" role="button">
+                      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
+                          <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                      </svg>
+                      <svg style="display: none;" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
+                          <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+                      </svg>
+                  </clipboard-copy>
+
+
+
+              </div>
+
+              <div class="file-actions pt-0 mb-md-0 mb-2 ml-md-2 flex-shrink-0 flex-md-justify-end">
+                  <div class="d-flex flex-justify-end">
+
+
+
+
+
+
+
+
+
+
+                      <details class="js-file-header-dropdown dropdown details-overlay details-reset pr-2 pl-2">
+                          <summary class="height-full" aria-haspopup="menu" role="button">
+                              <div class="height-full d-flex flex-items-center Link--secondary">
+                                  <svg aria-label="Show options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+                                      <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                                  </svg>
+                              </div>
+                          </summary>
+                          <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover color-fg-default position-absolute f5" style="width:185px; z-index:99; right: -4px;" role="menu">
+                              <label role="menuitemradio" class="dropdown-item btn-link text-normal d-block pl-5" tabindex="0" aria-checked="true">
+              <span class="position-absolute ml-n4"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg></span>
+                                  <input type="checkbox" checked="" class="d-none js-toggle-file-notes">
+                                  Show comments
+                              </label>
+
+                              <div role="none" class="dropdown-divider"></div>
+
+                              <a href="/AleCossioCh/jEdit-3/blob/7572dd39327bbfe85cbfa5d5fa0e7cb8c6110150/trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" class="pl-5 dropdown-item btn-link" rel="nofollow" role="menuitem" data-ga-click="View file, click, location:files_changed_dropdown">
+                                  View file
+                              </a>
+
+
+                              <button type="button" disabled="" role="menuitem" class="pl-5 dropdown-item btn-link" aria-label="You must be signed in and have push access to make changes.">
+                                  Edit file
+                              </button>
+
+
+                              <button type="button" disabled="" role="menuitem" class="pl-5 dropdown-item btn-link" aria-label="You must be signed in and have push access to delete this file.">
+                                  Delete file
+                              </button>
+
+
+                              <div role="none" class="dropdown-divider"></div>
+
+
+
+
+                          </details-menu>
+                      </details>
+                  </div>
+              </div>
+          </div>
+          <div class="js-file-content Details-content--hidden" data-hydro-view="{&quot;event_type&quot;:&quot;pull_request.select_diff_range&quot;,&quot;payload&quot;:{&quot;actor_id&quot;:23039347,&quot;pull_request_id&quot;:null,&quot;repository_id&quot;:null,&quot;diff_type&quot;:&quot;UNIFIED&quot;,&quot;whitespace_ignored&quot;:false,&quot;originating_url&quot;:&quot;https://github.com/AleCossioCh/jEdit-3/diffs?bytes=1754&amp;commentable=true&amp;commit=7572dd39327bbfe85cbfa5d5fa0e7cb8c6110150&amp;lines=398&amp;responsive=true&amp;sha1=cd2833cb6f71170257eb34ea04ff3a1950c8f4c7&amp;sha2=7572dd39327bbfe85cbfa5d5fa0e7cb8c6110150&amp;start_entry=2&amp;sticky=false&amp;w=false&quot;,&quot;user_id&quot;:23039347}}" data-hydro-view-hmac="4b894f0437fbac6e15b8f21c3181417f73e99fd20f88b4d65ee57cf274786f87">
+
+
+              <div class="data highlight js-blob-wrapper" style="overflow-x: auto">
+                  <template class="js-file-alert-template">
+                      <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+                          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+                              <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+                          </svg>
+
+                          <span>
+      This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+                          <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">  Show hidden characters
+                          </a>
+                          </div>
+                      </div></template>
+                  <template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+</span></template>
+
+                  <table class=" diff-table js-diff-table tab-size  " data-tab-size="8" data-diff-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-paste-markdown-skip="">
+
+
+                      <tbody>                <tr data-position="">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3HL1" class="blob-num blob-num-hunk non-expandable" data-line-number="..."></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3HR1" class="blob-num blob-num-hunk non-expandable" data-line-number="..."></td>
+                          <td class="blob-code blob-code-inner blob-code-hunk">@@ -1,81 +1,82 @@</td>
+                      </tr>
+
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L1" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="1"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R1" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"><span class="pl-c">/*</span></span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L2" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="2"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R2" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * ListDirectoryBrowserTask</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L3" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="3"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R3" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * :tabSize=8:indentSize=8:noTabs=false:</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L4" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="4"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R4" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * :folding=explicit:collapseFolds=1:</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L5" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="5"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R5" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> *</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L6" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="6"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R6" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * Copyright © 2010 Matthieu Casanova</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L7" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="7"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R7" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * Portions Copyright (C) 2000, 2003 Slava Pestov</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L8" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="8"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R8" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> *</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L9" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="9"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R9" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * This program is free software; you can redistribute it and/or</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L10" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="10"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R10" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * modify it under the terms of the GNU General Public License</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L11" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="11"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R11" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * as published by the Free Software Foundation; either version 2</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L12" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="12"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R12" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * of the License, or any later version.</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L13" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="13"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R13" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> *</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L14" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="14"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R14" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * This program is distributed in the hope that it will be useful,</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L15" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="15"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R15" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L16" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="16"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R16" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L17" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="17"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R17" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * GNU General Public License for more details.</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L18" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="18"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R18" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> *</span></td>
+                      </tr>
+
+
+
+
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L19" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="19"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R19" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * You should have received a copy of the GNU General Public License</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L20" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="20"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R20" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * along with this program; if not, write to the Free Software</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L21" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="21"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R21" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L22" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="22"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R22" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> <span class="pl-c">*/</span></span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L23" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="23"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R23" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L24" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="24"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R24" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">package</span> <span class="pl-smi">org.gjt.sp.jedit.browser</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L25" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="25"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R25" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L26" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="26"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R26" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"><span class="pl-c">//</span>{{{ Imports</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L27" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="27"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R27" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">import</span> <span class="pl-smi">org.gjt.sp.jedit.io.VFS</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L28" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="28"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R28" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">import</span> <span class="pl-smi">org.gjt.sp.jedit.io.VFSFile</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L29" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="29"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R29" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">import</span> <span class="pl-smi">org.gjt.sp.jedit.io.VFSManager</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L30" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="30"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R30" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">import</span> <span class="pl-smi">org.gjt.sp.jedit.jEdit</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L31" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="31"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R31" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">import</span> <span class="pl-smi">org.gjt.sp.util.Log</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L32" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="32"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R32" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L33" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="33"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R33" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-k">import</span> <span class="pl-smi">java.io.IOException</span>;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L34" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="34"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R34" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"><span class="pl-c">//</span>}}}</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L35" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="35"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R35" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L36" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="36"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R36" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"><span class="pl-c">/**</span></span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L37" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="37"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R37" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * <span class="pl-k">@author</span> Matthieu Casanova</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L38" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="38"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R38" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "><span class="pl-c"> * <span class="pl-k">@version</span> $Id: ListDirectoryBrowserTask.java 18380 2010-08-18 13:10:43Z kpouer $</span></td>
+                      </tr>
+
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L39" data-line-number="39" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R39" data-line-number="39" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="1" data-side="right" data-line="39" data-original-line="  */" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-c"> <span class="pl-c">*/</span></span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L40" data-line-number="40" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R40" data-line-number="40" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="2" data-side="right" data-line="40" data-original-line=" class ListDirectoryBrowserTask extends AbstractBrowserTask" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-k">class</span> <span class="pl-en">ListDirectoryBrowserTask</span> <span class="pl-k">extends</span> <span class="pl-e">AbstractBrowserTask</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L41" data-line-number="41" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R41" data-line-number="41" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="3" data-side="right" data-line="41" data-original-line=" {" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">{</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R42" data-line-number="42" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="4" data-side="right" data-line="42" data-original-line="+	private Object[] loadInfo;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">	<span class="pl-k">private</span> <span class="pl-k">Object</span>[] loadInfo;</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L42" data-line-number="42" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R43" data-line-number="43" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="5" data-side="right" data-line="43" data-original-line=" 	//{{{ BrowserIORequest constructor" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-c"><span class="pl-c">//</span>{{{ BrowserIORequest constructor</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L43" data-line-number="43" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R44" data-line-number="44" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="6" data-side="right" data-line="44" data-original-line=" 	/**" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-c"><span class="pl-c">/**</span></span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L44" data-line-number="44" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R45" data-line-number="45" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="7" data-side="right" data-line="45" data-original-line=" 	 * Creates a new browser I/O request." aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-c">	 * Creates a new browser I/O request.</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L45" data-line-number="45" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R46" data-line-number="46" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="8" data-side="right" data-line="46" data-original-line=" 	 * @param browser The VFS browser instance" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-c">	 * <span class="pl-k">@param</span> browser The VFS browser instance</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L46" data-line-number="46" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="9" data-side="left" data-line="46" data-original-line="-	 * @param path1 The first path name to operate on" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-"><span class="pl-c">	 * <span class="pl-k">@param</span> <span class="x x-first x-last">path1</span> The first path name to operate on</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R47" data-line-number="47" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="10" data-side="right" data-line="47" data-original-line="+	 * @param path The first path name to operate on" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+"><span class="pl-c">	 * <span class="pl-k">@param</span> <span class="x x-first x-last">path</span> The first path name to operate on</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L47" data-line-number="47" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R48" data-line-number="48" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="11" data-side="right" data-line="48" data-original-line=" 	 * @param loadInfo A two-element array filled out by the request;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-c">	 * <span class="pl-k">@param</span> loadInfo A two-element array filled out by the request;</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L48" data-line-number="48" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R49" data-line-number="49" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="12" data-side="right" data-line="49" data-original-line=" 	 * element 1 is the canonical path, element 2 is the file list." aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-c">	 * element 1 is the canonical path, element 2 is the file list.</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L49" data-line-number="49" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R50" data-line-number="50" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="13" data-side="right" data-line="50" data-original-line=" 	 */" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><span class="pl-c">	 <span class="pl-c">*/</span></span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L50" data-line-number="50" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R51" data-line-number="51" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="14" data-side="right" data-line="51" data-original-line=" 	ListDirectoryBrowserTask(VFSBrowser browser," aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-en">ListDirectoryBrowserTask</span>(<span class="pl-smi">VFSBrowser</span> <span class="pl-v">browser</span>,</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L51" data-line-number="51" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="15" data-side="left" data-line="51" data-original-line="-		Object session, VFS vfs, String path1," aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">		<span class="pl-smi">Object</span> <span class="pl-v">session</span>, <span class="pl-smi">VFS</span> <span class="pl-v">vfs</span>, <span class="pl-smi">String</span> <span class="pl-v x x-first x-last">path1</span>,</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R52" data-line-number="52" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="16" data-side="right" data-line="52" data-original-line="+		Object session, VFS vfs, String path," aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">		<span class="pl-smi">Object</span> <span class="pl-v">session</span>, <span class="pl-smi">VFS</span> <span class="pl-v">vfs</span>, <span class="pl-smi">String</span> <span class="pl-v x x-first x-last">path</span>,</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L52" data-line-number="52" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R53" data-line-number="53" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="17" data-side="right" data-line="53" data-original-line=" 		Object[] loadInfo, Runnable awtRunnable)" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		<span class="pl-k">Object</span>[] <span class="pl-v">loadInfo</span>, <span class="pl-smi">Runnable</span> <span class="pl-v">awtRunnable</span>)</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L53" data-line-number="53" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R54" data-line-number="54" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="18" data-side="right" data-line="54" data-original-line=" 	{" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	{</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L54" data-line-number="54" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="19" data-side="left" data-line="54" data-original-line="-		super(browser, session, vfs, path1, null, loadInfo, awtRunnable);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">		<span class="pl-c1">super</span>(browser, session, vfs, <span class="x x-first">path1, </span><span class="pl-c1 x">null</span><span class="x x-last">, loadInfo</span>, awtRunnable);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R55" data-line-number="55" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="20" data-side="right" data-line="55" data-original-line="+		super(browser, session, vfs, path, awtRunnable);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">		<span class="pl-c1">super</span>(browser, session, vfs, <span class="x x-first x-last">path</span>, awtRunnable);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L55" data-line-number="55" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R56" data-line-number="56" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="21" data-side="right" data-line="56" data-original-line=" 	}" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	}</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L56" data-line-number="56" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R57" data-line-number="57" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="22" data-side="right" data-line="57" data-original-line=" " aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><br></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L57" data-line-number="57" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R58" data-line-number="58" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="23" data-side="right" data-line="58" data-original-line=" 	@Override" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-k">@Override</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L58" data-line-number="58" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R59" data-line-number="59" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="24" data-side="right" data-line="59" data-original-line=" 	public void _run()" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">_run</span>()</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L59" data-line-number="59" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R60" data-line-number="60" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="25" data-side="right" data-line="60" data-original-line=" 	{" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	{</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L60" data-line-number="60" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="26" data-side="left" data-line="60" data-original-line="-		String[] args = { path1 };" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">		<span class="pl-k">String</span>[] args <span class="pl-k">=</span> { <span class="x x-first x-last">path1</span> };</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R61" data-line-number="61" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="27" data-side="right" data-line="61" data-original-line="+		String[] args = { path };" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">		<span class="pl-k">String</span>[] args <span class="pl-k">=</span> { <span class="x x-first x-last">path</span> };</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L61" data-line-number="61" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R62" data-line-number="62" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="28" data-side="right" data-line="62" data-original-line=" 		setStatus(Editor.getProperty(&quot;vfs.status.listing-directory&quot;,args));" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		setStatus(<span class="pl-smi">Editor</span><span class="pl-k">.</span>getProperty(<span class="pl-s"><span class="pl-pds">"</span>vfs.status.listing-directory<span class="pl-pds">"</span></span>,args));</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L62" data-line-number="62" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R63" data-line-number="63" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="29" data-side="right" data-line="63" data-original-line=" " aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><br></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L63" data-line-number="63" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="30" data-side="left" data-line="63" data-original-line="-		String canonPath = path1;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">		<span class="pl-smi">String</span> canonPath <span class="pl-k">=</span> <span class="x x-first x-last">path1</span>;</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R64" data-line-number="64" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="31" data-side="right" data-line="64" data-original-line="+		String canonPath = path;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">		<span class="pl-smi">String</span> canonPath <span class="pl-k">=</span> <span class="x x-first x-last">path</span>;</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L64" data-line-number="64" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R65" data-line-number="65" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="32" data-side="right" data-line="65" data-original-line=" " aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><br></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L65" data-line-number="65" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R66" data-line-number="66" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="33" data-side="right" data-line="66" data-original-line=" 		VFSFile[] directory = null;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		<span class="pl-k">VFSFile</span>[] directory <span class="pl-k">=</span> <span class="pl-c1">null</span>;</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L66" data-line-number="66" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R67" data-line-number="67" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="34" data-side="right" data-line="67" data-original-line=" 		try" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		<span class="pl-k">try</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L67" data-line-number="67" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R68" data-line-number="68" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="35" data-side="right" data-line="68" data-original-line=" 		{" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		{</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L68" data-line-number="68" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R69" data-line-number="69" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="36" data-side="right" data-line="69" data-original-line=" 			setCancellable(true);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">			setCancellable(<span class="pl-c1">true</span>);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L69" data-line-number="69" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R70" data-line-number="70" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="37" data-side="right" data-line="70" data-original-line=" " aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><br></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L70" data-line-number="70" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="38" data-side="left" data-line="70" data-original-line="-			canonPath = vfs._canonPath(session,path1,browser);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">			canonPath <span class="pl-k">=</span> vfs<span class="pl-k">.</span>_canonPath(session,<span class="x x-first x-last">path1</span>,browser);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R71" data-line-number="71" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="39" data-side="right" data-line="71" data-original-line="+			canonPath = vfs._canonPath(session,path,browser);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">			canonPath <span class="pl-k">=</span> vfs<span class="pl-k">.</span>_canonPath(session,<span class="x x-first x-last">path</span>,browser);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L71" data-line-number="71" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R72" data-line-number="72" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="40" data-side="right" data-line="72" data-original-line=" 			directory = vfs._listFiles(session,canonPath,browser);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">			directory <span class="pl-k">=</span> vfs<span class="pl-k">.</span>_listFiles(session,canonPath,browser);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L72" data-line-number="72" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R73" data-line-number="73" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="41" data-side="right" data-line="73" data-original-line=" 		}" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		}</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L73" data-line-number="73" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R74" data-line-number="74" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="42" data-side="right" data-line="74" data-original-line=" 		catch(IOException io)" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		<span class="pl-k">catch</span>(<span class="pl-smi">IOException</span> io)</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L74" data-line-number="74" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R75" data-line-number="75" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="43" data-side="right" data-line="75" data-original-line=" 		{" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		{</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L75" data-line-number="75" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R76" data-line-number="76" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="44" data-side="right" data-line="76" data-original-line=" 			setCancellable(false);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">			setCancellable(<span class="pl-c1">false</span>);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L76" data-line-number="76" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R77" data-line-number="77" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="45" data-side="right" data-line="77" data-original-line=" 			Log.log(Log.ERROR,this,io);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">			<span class="pl-smi">Log</span><span class="pl-k">.</span>log(<span class="pl-smi">Log</span><span class="pl-c1"><span class="pl-k">.</span>ERROR</span>,<span class="pl-c1">this</span>,io);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L77" data-line-number="77" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R78" data-line-number="78" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="46" data-side="right" data-line="78" data-original-line=" 			String[] pp = { io.toString() };" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">			<span class="pl-k">String</span>[] pp <span class="pl-k">=</span> { io<span class="pl-k">.</span>toString() };</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L78" data-line-number="78" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="47" data-side="left" data-line="78" data-original-line="-			VFSManager.error(browser,path1,&quot;ioerror.directory-error&quot;,pp);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">			<span class="pl-smi">VFSManager</span><span class="pl-k">.</span>error(browser,<span class="x x-first x-last">path1</span>,<span class="pl-s"><span class="pl-pds">"</span>ioerror.directory-error<span class="pl-pds">"</span></span>,pp);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R79" data-line-number="79" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="48" data-side="right" data-line="79" data-original-line="+			VFSManager.error(browser,path,&quot;ioerror.directory-error&quot;,pp);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">			<span class="pl-smi">VFSManager</span><span class="pl-k">.</span>error(browser,<span class="x x-first x-last">path</span>,<span class="pl-s"><span class="pl-pds">"</span>ioerror.directory-error<span class="pl-pds">"</span></span>,pp);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L79" data-line-number="79" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R80" data-line-number="80" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="49" data-side="right" data-line="80" data-original-line=" 		}" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		}</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L80" data-line-number="80" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R81" data-line-number="81" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="50" data-side="right" data-line="81" data-original-line=" 		finally" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		<span class="pl-k">finally</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="661b7746cf41875226ec0aa8ea5c78dd23a10c3481b21d3e6eca9e40a856ea65" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L81" data-line-number="81" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R82" data-line-number="82" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="51" data-side="right" data-line="82" data-original-line=" 		{" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		{</span></td>
+                      </tr>
+
+
+
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L82" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="82"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R83" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="83"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">			<span class="pl-k">try</span></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L83" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="83"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R84" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="84"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">			{</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L84" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="84"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R85" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="85"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">				vfs<span class="pl-k">.</span>_endVFSSession(session,browser);</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L85" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="85"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R86" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="86"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">			}</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L86" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="86"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R87" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="87"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">			<span class="pl-k">catch</span>(<span class="pl-smi">IOException</span> io)</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L87" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="87"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R88" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="88"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">			{</td>
+                      </tr>
+
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L88" data-line-number="88" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R89" data-line-number="89" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="53" data-side="right" data-line="89" data-original-line=" 				setCancellable(false);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">				setCancellable(<span class="pl-c1">false</span>);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L89" data-line-number="89" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R90" data-line-number="90" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="54" data-side="right" data-line="90" data-original-line=" 				Log.log(Log.ERROR,this,io);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">				<span class="pl-smi">Log</span><span class="pl-k">.</span>log(<span class="pl-smi">Log</span><span class="pl-c1"><span class="pl-k">.</span>ERROR</span>,<span class="pl-c1">this</span>,io);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L90" data-line-number="90" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R91" data-line-number="91" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="55" data-side="right" data-line="91" data-original-line=" 				String[] pp = { io.toString() };" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">				<span class="pl-k">String</span>[] pp <span class="pl-k">=</span> { io<span class="pl-k">.</span>toString() };</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L91" data-line-number="91" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="56" data-side="left" data-line="91" data-original-line="-				VFSManager.error(browser,path1,&quot;ioerror.directory-error&quot;,pp);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">				<span class="pl-smi">VFSManager</span><span class="pl-k">.</span>error(browser,<span class="x x-first x-last">path1</span>,<span class="pl-s"><span class="pl-pds">"</span>ioerror.directory-error<span class="pl-pds">"</span></span>,pp);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R92" data-line-number="92" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="57" data-side="right" data-line="92" data-original-line="+				VFSManager.error(browser,path,&quot;ioerror.directory-error&quot;,pp);" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">				<span class="pl-smi">VFSManager</span><span class="pl-k">.</span>error(browser,<span class="x x-first x-last">path</span>,<span class="pl-s"><span class="pl-pds">"</span>ioerror.directory-error<span class="pl-pds">"</span></span>,pp);</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L92" data-line-number="92" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R93" data-line-number="93" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="58" data-side="right" data-line="93" data-original-line=" 			}" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">			}</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L93" data-line-number="93" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R94" data-line-number="94" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="59" data-side="right" data-line="94" data-original-line=" 		}" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		}</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="62df3bd6882dcf5245c5c3ce278f62989ef305dccfa87c9bfa999068364b5836" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L94" data-line-number="94" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R95" data-line-number="95" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="60" data-side="right" data-line="95" data-original-line=" " aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><br></span></td>
+                      </tr>
+
+
+
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L95" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="95"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R96" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="96"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">		setCancellable(<span class="pl-c1">false</span>);</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L96" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="96"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R97" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="97"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L97" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="97"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R98" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="98"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">		loadInfo[<span class="pl-c1">0</span>] <span class="pl-k">=</span> canonPath;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L98" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="98"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R99" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="99"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">		loadInfo[<span class="pl-c1">1</span>] <span class="pl-k">=</span> directory;</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L99" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="99"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R100" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="100"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">	}</td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L100" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="100"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R101" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="101"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" "></td>
+                      </tr>
+                      <tr class="blob-expanded" data-expanded-full="false">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L101" class="blob-num blob-num-context  js-linkable-line-number" data-line-number="101"></td>
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R102" class="blob-num blob-num-context  js-linkable-line-number js-code-nav-line-number js-blob-rnum" data-line-number="102"></td>
+                          <td class="blob-code blob-code-inner blob-code-marker js-file-line" data-code-marker=" ">	<span class="pl-c"><span class="pl-c">//</span>{{{ toString() method</span></td>
+                      </tr>
+
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L102" data-line-number="102" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R103" data-line-number="103" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="62" data-side="right" data-line="103" data-original-line=" 	public String toString()" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-k">public</span> <span class="pl-smi">String</span> <span class="pl-en">toString</span>()</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L103" data-line-number="103" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R104" data-line-number="104" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="63" data-side="right" data-line="104" data-original-line=" 	{" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	{</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L104" data-line-number="104" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R105" data-line-number="105" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="64" data-side="right" data-line="105" data-original-line=" 		return getClass().getName() + &quot;[type=LIST_DIRECTORY&quot;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">		<span class="pl-k">return</span> getClass()<span class="pl-k">.</span>getName() <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>[type=LIST_DIRECTORY<span class="pl-pds">"</span></span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L105" data-line-number="105" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="65" data-side="left" data-line="105" data-original-line="-			+ &quot;,vfs=&quot; + vfs + &quot;,path1=&quot; + path1" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">			<span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>,vfs=<span class="pl-pds">"</span></span> <span class="pl-k">+</span> vfs <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>,path1=<span class="pl-pds">"</span></span> <span class="pl-k">+</span> path1</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L106" data-line-number="106" class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+                          <td class="blob-num blob-num-deletion empty-cell"></td>
+
+                          <td class="blob-code blob-code-deletion  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="66" data-side="left" data-line="106" data-original-line="-			+ &quot;,path2=&quot; + path2 + &quot;]&quot;;" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass js-skip-tagsearch" data-code-marker="-">			<span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>,path2=<span class="pl-pds">"</span></span> <span class="pl-k">+</span> path2 <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>]<span class="pl-pds">"</span></span>;</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td class="blob-num blob-num-addition empty-cell"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R106" data-line-number="106" class="blob-num blob-num-addition js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-addition  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="67" data-side="right" data-line="106" data-original-line="+			+ &quot;,vfs=&quot; + vfs + &quot;,pat=&quot; + path + ']';" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker="+">			<span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>,vfs=<span class="pl-pds">"</span></span> <span class="pl-k">+</span> vfs <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>,pat=<span class="pl-pds">"</span></span> <span class="pl-k">+</span> path <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>]<span class="pl-pds">'</span></span>;</span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L107" data-line-number="107" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R107" data-line-number="107" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="68" data-side="right" data-line="107" data-original-line=" 	} //}}}" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	} <span class="pl-c"><span class="pl-c">//</span>}}}</span></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L108" data-line-number="108" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R108" data-line-number="108" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context  js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="69" data-side="right" data-line="108" data-original-line=" " aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" "><br></span></td>
+                      </tr>
+
+
+
+                      <tr data-hunk="793a55812e364058b6d204691c2b75dd329fccb307da45b390cba110aaf5fc40" class="show-top-border">
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3L109" data-line-number="109" class="blob-num blob-num-context js-linkable-line-number"></td>
+
+                          <td id="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3R109" data-line-number="109" class="blob-num blob-num-context js-linkable-line-number js-code-nav-line-number js-blob-rnum"></td>
+
+                          <td class="blob-code blob-code-context js-file-line">
+                              <button data-path="trunk/org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" data-anchor="diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" data-position="70" data-side="right" data-line="109" data-original-line=" 	//{{{ Private members" aria-label="Add line comment" type="button" data-view-component="true" class="add-line-comment js-add-line-comment js-add-single-line-comment btn-link">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                                  <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                              </svg>
+                              </button>    <span class="blob-code-inner blob-code-marker js-code-nav-pass " data-code-marker=" ">	<span class="pl-c"><span class="pl-c">//</span>{{{ Private members</span></span></td>
+                      </tr>
+
+
+
+                      <tr class="js-expandable-line js-skip-tagsearch" data-position="">
+                          <td class="blob-num blob-num-expandable" colspan="2">
+                              <a href="#diff-1109ece872a24a32c9779658c61f3ee5b7c49b895b8714fa8ae8d2669a463ad3" class="js-expand directional-expander single-expander" title="Expand Down" aria-label="Expand Down" data-url="/AleCossioCh/jEdit-3/blob_excerpt/8bf5d697e6d7655b5d2c433c4cc208b9ff9ce6e4?diff=unified&amp;direction=down&amp;in_wiki_context=&amp;last_left=109&amp;last_right=109&amp;left=157&amp;left_hunk_size=&amp;mode=100644&amp;path=trunk%2Forg%2Fgjt%2Fsp%2Fjedit%2Fbrowser%2FListDirectoryBrowserTask.java&amp;right=157&amp;right_hunk_size=" data-left-range="110-156" data-right-range="110-156">
+                                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-fold-down">
+                                      <path d="M8.177 14.323l2.896-2.896a.25.25 0 00-.177-.427H8.75V7.764a.75.75 0 10-1.5 0V11H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0zM2.25 5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 4.25a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5a.75.75 0 01.75.75zM8.25 5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 4.25a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5a.75.75 0 01.75.75zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"></path>
+                                  </svg>
+                              </a>
+                          </td>
+                          <td class="blob-code blob-code-inner blob-code-hunk"></td>
+                      </tr>
+
+
+                      </tbody></table>
+              </div>
+
+          </div>
+      </div>
       <!--Here finish the class ListDirectoryBrowserTask.java  -->
 
+      <!--Here insert the class MkDirBrowserTask.java  -->
 
+      <!--Here finish the class MkDirBrowserTask.java  -->
   </div>
 </div>
 
